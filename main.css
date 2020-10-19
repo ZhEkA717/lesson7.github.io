@@ -1,0 +1,73 @@
+/* Придумайте селектор, который выберет абзацы <p> внутри дивов <div>. */
+div p{
+   font-weight: bolder;
+    color: red;
+}
+/* Придумайте селектор, который выберет все <h2> внутри дивов <div>. */
+div h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+/* Придумайте селектор, который выберет все абзацы <p> из элемента с id=test. */
+#test p {
+    font-style: italic;
+    color: blue;
+}
+/* Придумайте селектор, который выберет все <h2> из элемента с id=test. */
+#test h2{
+    font-size: small;
+    }
+/* Выберите все элементы с классом bbb. */
+.bbb{
+    color: green;
+}
+/* Выберите все элементы с классом bbb из элемента с id=test1. */
+#test1 .bbb{
+    font-style: italic;
+}
+/* Выберите все абзацы <p> с классом bbb. */
+p.bbb{
+     color: red;
+}
+/* Выберите все <h2> с классом bbb. */
+h2.bbb{
+font-weight: 900;
+}
+/* Выберите все абзацы <p> с классом bbb из элемента с id=test1. */
+#test1 p.bbb{
+    text-align: center;
+}
+/* Выберите все элементы с классом bbb и элементы с классом xxx одновременно. */
+.bbb, .xxx{
+color: hotpink;
+}
+/* Выберите все абзацы <p> с классом bbb и <h2> с классом xxx одновременно. */
+p.bbb, h2.xxx{
+    font-size: smaller;
+}
+/* Выберите все абзацы <p> с классом bbb из id=test1 и все абзацы
+ <p> с классом xxx из id=test2 одновременно. */
+ #test1 p.bbb, #test2 p.xxx{
+     font-size: xx-large;
+ }
+
+/* Выберите все элементы из класса fff. */
+.fff{
+color: grey;
+}
+/* Выберите все абзацы <p> из класса fff. */
+.fff p{
+    color: yellow;
+}
+/* Выберите все абзацы <p> с классом fff. */
+p.fff{
+    color: brown;
+}
+/* Выберите все элементы с классом bbb из класса fff. */
+.fff .bbb{
+    font-style: italic;
+}
+/* Выберите все <h2> с классом bbb из класса fff. */
+.fff h2.bbb{
+    color: red;
+}
